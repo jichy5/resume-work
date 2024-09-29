@@ -1,0 +1,16 @@
+Optimization Model for Supplier and Transporter Selection Based on Linear Programming
+This document outlines a comprehensive optimization model for selecting suppliers and transporters in a manufacturing system. The goal is to minimize costs, ensure supply chain stability, and optimize transportation efficiency using linear programming techniques.
+
+Key Components:
+Supplier Evaluation: A mathematical model is built to assess the importance of 402 suppliers based on three main criteria: order volume, supply stability, and flexibility. A scoring system is used to rank suppliers, with the top 50 suppliers identified for further analysis.
+
+Optimization of Supply and Transport: The model uses Fourier transform to analyze the periodicity of supply and calculates the minimum number of suppliers required to meet production demands. Linear programming is employed to minimize costs while ensuring sufficient inventory to meet two weeks of production requirements.
+
+Cost-Effective Purchasing Strategy: A purchasing strategy is developed to minimize the total production cost over a 24-week cycle. The model also identifies the most efficient transport plan to minimize loss during transit.
+
+Expansion Strategy: The model examines the potential for production capacity expansion. Using linear programming, the model determines the maximum expansion possible given the current supply and transportation limitations.
+
+Methodologies:
+Fourier Transform Analysis: Used to detect supply periodicity.
+Linear Programming: Applied to optimize supplier selection, minimize costs, and improve transportation efficiency.
+Dynamic Programming and Knapsack Problem: Used to solve the optimal transporter selection to minimize losses during transportation.
