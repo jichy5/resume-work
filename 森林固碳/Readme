@@ -1,0 +1,8 @@
+Forest Carbon Sequestration Management Model
+This document presents a comprehensive model designed to optimize forest management, focusing on maximizing carbon sequestration. The model considers not only carbon storage but also other aspects such as biodiversity, soil protection, oxygen production, and water conservation. The goal is to find the best forest harvesting strategy that maximizes the overall value derived from the forest, integrating environmental and economic factors.
+
+Key Features:
+Carbon Sequestration Model: The initial model uses multiple regression analysis to measure carbon sequestration based on various environmental factors such as temperature, humidity, and soil properties. The goal is to create a forest harvesting plan that maximizes carbon sequestration.
+Comprehensive Forest Value Model: The improved model extends beyond carbon sequestration, accounting for other values such as biodiversity, oxygen release, and forest product transaction value. These values are converted into economic terms for better decision-making.
+Optimization via Genetic Algorithms: To determine the optimal forest management plan, the model uses genetic algorithms to handle the complexity of balancing multiple factors across different forest species and ages.
+Sensitivity Analysis: The model includes sensitivity analysis to understand how changes in environmental or economic parameters impact the optimal tree-cutting age, ensuring flexibility in forest management strategies.
