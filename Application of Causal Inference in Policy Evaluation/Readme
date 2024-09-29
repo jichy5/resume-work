@@ -1,0 +1,14 @@
+Application of Causal Inference in Policy Evaluation
+This document provides an in-depth exploration of using causal inference methods for evaluating and optimizing public policy. It focuses on how to accurately measure policy effects, detect unobserved variables, and implement fair and efficient policy decisions.
+
+Key Topics:
+Motivation: The document highlights the importance of policy evaluation in public governance and discusses various methods such as matching, difference-in-differences (DID), instrumental variables, and regression discontinuity. These methods are widely used to assess policy impact in areas like education, environmental protection, healthcare subsidies, and government grants.
+
+Causal Inference Methods: Several advanced methods, including Double Robust Difference-in-Differences (DRDID) and Callaway and Sant’Anna’s Multi-period DID (CSDID), are introduced to handle endogeneity and improve policy effect estimates across multiple time periods.
+
+Policy Learning: The document outlines techniques to optimize policy allocation through policy learning, aiming to improve resource distribution based on observed data. Key methods include using augmented inverse probability weighting (AIPW) to estimate optimal treatment strategies.
+
+Fair Policy Learning: A focus on fairness is crucial in policy optimization. The document introduces Fair-Targeting Policy (FTP), which balances the welfare of different social groups while maximizing overall efficiency. It addresses issues like prediction and welfare disparities to ensure equitable outcomes.
+
+Applications:
+The document proposes practical solutions for policy evaluation, combining causal inference methods with machine learning techniques to optimize decision-making in public welfare programs. It emphasizes fairness and efficiency in resource allocation, ensuring that policies cater to various social needs without harming vulnerable groups.
