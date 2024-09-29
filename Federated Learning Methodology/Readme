@@ -1,0 +1,9 @@
+Federated Learning Methodology
+This document provides a detailed explanation of federated learning, a method used to train machine learning models across distributed datasets without requiring centralization of sensitive personal data. The document explains how to combine information from various environments while ensuring privacy and data security.
+
+Key Topics:
+Motivation: Federated learning is motivated by the need to analyze data from different environments without directly merging sensitive datasets. It allows the extraction of useful insights by combining information across distributed datasets while respecting legal, privacy, and proprietary concerns.
+Model Construction: The document focuses on building parameter models for federated estimation, particularly for estimating treatment effects. The main methods discussed include Maximum Likelihood Estimation (MLE), Inverse Probability Weighting MLE (IPW-MLE), and Augmented IPW (AIPW).
+Causal Inference: Federated learning is used to estimate Average Treatment Effects (ATE) and Treatment on the Treated (ATT) using advanced causal inference techniques, with a focus on bias reduction and robustness against model misspecification.
+Advanced Techniques: The document explores semi-parametric and non-parametric models, such as Double Machine Learning (DML) and Generalized Random Forest (GRF), to handle complex data structures and account for heterogeneous treatment effects across datasets.
+Weighting Methods: Several weighting methods, such as Hessian weighting, sample size weighting, and inverse variance weighting (IVW), are introduced to optimize the model's performance across different data environments.
