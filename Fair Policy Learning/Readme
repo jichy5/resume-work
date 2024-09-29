@@ -1,0 +1,8 @@
+Fair Policy Learning for Welfare and Health Programs
+This document presents a framework for designing fair and efficient policy targeting rules in welfare and health programs. It focuses on constructing treatment allocation rules based on experimental or quasi-experimental data, balancing efficiency and fairness in decision-making.
+
+Key Features:
+Fair Policy Targeting: The paper introduces a methodology for creating treatment rules that are Pareto optimal and fair, ensuring that improving the welfare of one sensitive group does not come at the expense of another group.
+Decision Framework: The framework allows policymakers to define their fairness criteria and preferences, incorporating legal or ethical constraints. It also guarantees Pareto efficiency in policy selection.
+Pareto Frontier Construction: The set of Pareto-optimal policies is identified by maximizing a weighted average of the welfares of sensitive groups, with the relative importance of each group determined by the chosen fairness criteria.
+Mixed-Integer Quadratic Program (MIQP): Optimization is performed using MIQP to estimate the optimal policy assignment, ensuring fair treatment allocations while considering the sensitive attributes and individual characteristics.
