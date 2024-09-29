@@ -1,0 +1,20 @@
+Double Machine Learning (DML)
+This document provides a comprehensive introduction to Double Machine Learning (DML) and its applications in various econometric models. DML is a robust method used in causal inference to address model misspecification and control for high-dimensional covariates while avoiding overfitting.
+
+Key Concepts:
+Neyman Orthogonality: A crucial concept in DML that ensures the bias due to machine learning model errors is minimized, providing more reliable treatment effect estimates.
+Sample Splitting and Cross-Fitting: Techniques used to prevent overfitting by partitioning the data into training and validation sets, which are used iteratively to estimate the model.
+Applications:
+Partially Linear Regression Models (PLR): DML is applied to estimate treatment effects in models where the relationship between treatment and outcome is partially linear.
+
+Example: Estimating the impact of taxes and public services on housing prices.
+Interactive Regression Models (IRM): DML is used to estimate the Average Treatment Effect (ATE) in cases where treatment is a binary variable.
+
+Example: Investigating the effect of 401(k) plans on net financial assets.
+Instrumental Variable Models: DML extends to models that use instrumental variables to account for endogeneity in treatment assignment.
+
+Example: Estimating the effect of smoking on health outcomes using doctor's advice as an instrument.
+Policy Allocation: DML can be applied to learn optimal policy decisions, especially in resource-constrained settings, such as determining vaccine distribution or targeted marketing strategies.
+
+Methods:
+Cross-Fitting: A process that involves dividing the data into several folds and using machine learning methods to estimate nuisance functions, followed by applying Neyman-orthogonal score functions to estimate the causal parameter.
