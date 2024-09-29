@@ -1,0 +1,13 @@
+Glass Classification Model Using Critic Weights and K-Means Clustering
+This project develops a classification model for ancient glass artifacts based on their chemical composition, focusing on two primary types: high-potassium glass and lead-barium glass. The classification is aimed at identifying the effects of weathering on these glass types.
+
+Key Components:
+Correlation Analysis: The relationship between the external features of the glass (such as patterns, color, and type) and weathering is analyzed using statistical tests like Fisher's exact test and Chi-square test.
+
+Chemical Composition Analysis: The project uses the Critic weight method to assign importance to 14 chemical components. The most influential components, such as silica, lead oxide, and barium oxide, are used to classify glass into subcategories using K-means clustering.
+
+Model Validation: The model's effectiveness is validated through cross-validation and sensitivity testing, achieving an accuracy rate of over 98%.
+
+Clustering: Subclasses within the high-potassium and lead-barium glass types are created using K-means clustering based on chemical composition, and the model is tested with additional datasets.
+
+Spearman Correlation Analysis: The relationships between different chemical elements are analyzed using Spearman correlation coefficients, revealing significant chemical differences between the glass types, both in weathered and unweathered conditions.
