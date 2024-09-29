@@ -1,0 +1,10 @@
+DID Methodology in Federated Learning
+This document presents an in-depth exploration of Difference-in-Differences (DID) methods combined with federated learning approaches, particularly focusing on causal inference techniques across multiple datasets without sharing individual-level data. It covers advanced methods for estimating average treatment effects (ATE) and treatment effects on the treated (ATT) using models such as IPW-MLE and AIPW.
+
+Key Topics:
+Federated Causal Learning: Methods for analyzing treatment effects across different environments while preserving privacy.
+DID in Federated Systems: Application of DID with variation in treatment timing and heterogeneous treatment effects across datasets.
+Advanced Estimators: Introduction to AIPW-DID, DRDID, and RIPW methods for more robust and flexible causal inference.
+This guide is designed for researchers working with federated data and seeking advanced causal analysis methods for policy evaluation and treatment effect estimation.
+
+This brief overview highlights the core concepts of the document, providing readers with a quick understanding of its purpose and contents.
